@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+
+<div [ngStyle]="{'margin': '30px 300px'}">
+  <fusioncharts
+    [id]="id"
+    [width]="width"
+    [height]="height"
+    [type]="type"
+    [dataFormat]="dataFormat"
+    [dataSource]="dataSource"
+></fusioncharts>
+</div>
+
+<div class="container">
+  <app-add-item></app-add-item>
+  <app-items></app-items>
+</div>
